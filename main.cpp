@@ -24,14 +24,12 @@ int main()
     sort(processes.begin(), processes.end(), Process::byArrivalTime);
 
     Result fcfs_result = FCFS::calculate(processes);
-    cout<<"FCFS:\n";
-    cout<<"ATAT : "<<fcfs_result.avgTurnAroundTime<<endl;
-    cout<<"AWT/ART : "<<fcfs_result.avgWaitingTime<<endl;
+    cout<<"FCFS:\n";fcfs_result.show();
+    
 
     Result sjf_result = SJF::calculate(processes);
-    cout<<"SJF:\n";
-    cout<<"ATAT : "<<sjf_result.avgTurnAroundTime<<endl;
-    cout<<"AWT/ART : "<<sjf_result.avgWaitingTime<<endl;
+    cout<<"SJF:\n";sjf_result.show();
+    
 
     return 0;
 }

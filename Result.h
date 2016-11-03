@@ -7,6 +7,8 @@ class Result
     float avgWaitingTime;
     float avgTurnAroundTime;
     float avgResponseTime;
+    
+    void show();
 };
 
 #endif // RESULT_H_INCLUDED
