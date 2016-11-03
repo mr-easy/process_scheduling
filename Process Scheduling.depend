@@ -1,0 +1,26 @@
+# depslib dependency file v1.0
+1477938995 source:h:\process scheduling\main.cpp
+	<iostream>
+	<vector>
+	<algorithm>
+	"Process.h"
+	"Result.h"
+	"FCFS.h"
+
+1477938459 source:h:\process scheduling\process.cpp
+	"Process.h"
+
+1477938443 h:\process scheduling\process.h
+
+1477938602 source:h:\process scheduling\fcfs.cpp
+	"FCFS.h"
+
+1477828727 source:h:\process scheduling\result.cpp
+
+1477891334 h:\process scheduling\result.h
+
+1477893579 h:\process scheduling\fcfs.h
+	<vector>
+	"Process.h"
+	"Result.h"
+

@@ -1,0 +1,16 @@
+#include "SJF.h"
+#include <queue>
+Result FCFS::calculate(std::vector<Process> processes)
+{
+    float atat = 0, awt = 0;
+    //The vector of processes is already sorted in increasing order of their arrival time
+    int n = processes.size();
+    int time = 0;
+    std::priority_queue<Process> readyQueue;
+    Result result;
+    result.avgTurnAroundTime = atat/n;
+    result.avgWaitingTime = awt/n;
+    result.avgResponseTime = result.avgWaitingTime;
+
+    return result;
+}
