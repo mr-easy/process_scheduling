@@ -4,6 +4,7 @@
 #include "Process.h"
 #include "Result.h"
 #include "FCFS.h"
+#include "SJF.h"
 using namespace std;
 
 int main()
@@ -21,8 +22,15 @@ int main()
         processes.push_back(*(new Process(i+1, t1, t2, t3)));
     }
     sort(processes.begin(), processes.end(), Process::byArrivalTime);
-    Result result = FCFS::calculate(processes);
-    cout<<"ATAT : "<<result.avgTurnAroundTime<<endl;
-    cout<<"AWT/ART : "<<result.avgWaitingTime<<endl;
+    Result sjf_result = SJF::calculate(processes);
+    Result fcfs_result = FCFS::calculate(processes);
+
+    cout<<"FCFS:\n";
+    cout<<"ATAT : "<<fcfs_result.avgTurnAroundTime<<endl;
+    cout<<"AWT/ART : "<<fcfs_result.avgWaitingTime<<endl;
+    cout<<"SJF:\n";
+    cout<<"ATAT : "<<sjf_result.avgTurnAroundTime<<endl;
+    cout<<"AWT/ART : "<<sjf_result.avgWaitingTime<<endl;
+
     return 0;
 }

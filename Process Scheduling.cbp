@@ -38,6 +38,8 @@
 		<Unit filename="Process.h" />
 		<Unit filename="Result.cpp" />
 		<Unit filename="Result.h" />
+		<Unit filename="SJF.cpp" />
+		<Unit filename="SJF.h" />
 		<Unit filename="main.cpp" />
 		<Extensions>
 			<code_completion />

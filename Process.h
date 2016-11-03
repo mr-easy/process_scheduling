@@ -13,6 +13,7 @@ public:
     Process(int id, int burstTime = 0, int arrivalTime = 0, int priority = 0);
     bool executeOneUnit();
     static bool byArrivalTime(const Process &a, const Process &b);
+    bool operator<(const Process& a) const;
 };
 
 

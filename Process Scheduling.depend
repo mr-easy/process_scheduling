@@ -24,3 +24,38 @@
 	"Process.h"
 	"Result.h"
 
+1478158505 source:h:\process scheduling\process_scheduling\fcfs.cpp
+	"FCFS.h"
+
+1477893579 h:\process scheduling\process_scheduling\fcfs.h
+	<vector>
+	"Process.h"
+	"Result.h"
+
+1478164356 h:\process scheduling\process_scheduling\process.h
+
+1477891334 h:\process scheduling\process_scheduling\result.h
+
+1478162919 source:h:\process scheduling\process_scheduling\main.cpp
+	<iostream>
+	<vector>
+	<algorithm>
+	"Process.h"
+	"Result.h"
+	"FCFS.h"
+	"SJF.h"
+
+1478164339 source:h:\process scheduling\process_scheduling\process.cpp
+	"Process.h"
+
+1477828727 source:h:\process scheduling\process_scheduling\result.cpp
+
+1478164155 h:\process scheduling\process_scheduling\sjf.h
+	<vector>
+	"Process.h"
+	"Result.h"
+
+1478164244 source:h:\process scheduling\process_scheduling\sjf.cpp
+	"SJF.h"
+	<queue>
+
