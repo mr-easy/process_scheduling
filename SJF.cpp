@@ -9,6 +9,7 @@ Result SJF::calculate(std::vector<Process> processes)
     int time = 0;
 
     std::priority_queue<Process> readyQueue;
+
     while(processesLeft > 0)
     {
         std::vector<Process>::iterator it = processes.begin();
@@ -36,7 +37,10 @@ Result SJF::calculate(std::vector<Process> processes)
             time++;
         }while(!current.executeOneUnit());
         atat += time - current.arrivalTime;
+        processesLeft--;
     }
+
+
     Result result;
     result.avgTurnAroundTime = atat/n;
     result.avgWaitingTime = awt/n;
