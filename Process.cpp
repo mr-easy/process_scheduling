@@ -24,8 +24,3 @@ bool Process::byArrivalTime(const Process &a, const Process &b)
         return a.pid < b.pid;
     return a.arrivalTime < b.arrivalTime;
 }
-//For sorting based on shortest job first
-bool Process::operator<(const Process& a) const
-{
-  return burstTime > a.burstTime;
-}

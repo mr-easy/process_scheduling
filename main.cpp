@@ -5,6 +5,7 @@
 #include "Result.h"
 #include "FCFS.h"
 #include "SJF.h"
+#include "Priority_non-pre.h"
 using namespace std;
 
 int main()
@@ -24,12 +25,13 @@ int main()
     sort(processes.begin(), processes.end(), Process::byArrivalTime);
 
     Result fcfs_result = FCFS::calculate(processes);
-    cout<<"FCFS:\n";fcfs_result.show();
-    
+    cout<<"FCFS:\n"; fcfs_result.show(); cout<<"\n";
 
     Result sjf_result = SJF::calculate(processes);
-    cout<<"SJF:\n";sjf_result.show();
-    
+    cout<<"SJF:\n"; sjf_result.show(); cout<<"\n";
+
+    Result priority_np_result = Priority_non_pre::calculate(processes);
+    cout<<"Priority Non Pre-emptive:\n"; priority_np_result.show(); cout<<"\n";
 
     return 0;
 }

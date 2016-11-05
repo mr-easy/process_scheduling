@@ -32,11 +32,11 @@
 	"Process.h"
 	"Result.h"
 
-1478164356 h:\process scheduling\process_scheduling\process.h
+1478358162 h:\process scheduling\process_scheduling\process.h
 
-1477891334 h:\process scheduling\process_scheduling\result.h
+1478328393 h:\process scheduling\process_scheduling\result.h
 
-1478165193 source:h:\process scheduling\process_scheduling\main.cpp
+1478358681 source:h:\process scheduling\process_scheduling\main.cpp
 	<iostream>
 	<vector>
 	<algorithm>
@@ -44,18 +44,30 @@
 	"Result.h"
 	"FCFS.h"
 	"SJF.h"
+	"Priority_non-pre.h"
 
-1478164339 source:h:\process scheduling\process_scheduling\process.cpp
+1478358163 source:h:\process scheduling\process_scheduling\process.cpp
 	"Process.h"
 
-1477828727 source:h:\process scheduling\process_scheduling\result.cpp
+1478358034 source:h:\process scheduling\process_scheduling\result.cpp
+	"Result.h"
+	<iostream>
 
 1478164155 h:\process scheduling\process_scheduling\sjf.h
 	<vector>
 	"Process.h"
 	"Result.h"
 
-1478326988 source:h:\process scheduling\process_scheduling\sjf.cpp
+1478358060 source:h:\process scheduling\process_scheduling\sjf.cpp
 	"SJF.h"
 	<queue>
+
+1478358789 source:h:\process scheduling\process_scheduling\priority_non-pre.cpp
+	"Priority_non-pre.h"
+	<queue>
+
+1478358452 h:\process scheduling\process_scheduling\priority_non-pre.h
+	<vector>
+	"Process.h"
+	"Result.h"
 
