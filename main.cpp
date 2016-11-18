@@ -6,6 +6,7 @@
 #include "FCFS.h"
 #include "SJF.h"
 #include "Priority_non-pre.h"
+#include "SRTF.h"
 using namespace std;
 
 int main()
@@ -32,6 +33,10 @@ int main()
 
     Result priority_np_result = Priority_non_pre::calculate(processes);
     cout<<"Priority Non Pre-emptive:\n"; priority_np_result.show(); cout<<"\n";
+
+    cout<<"Shortest Remaining Time First (SRTF):\n";
+    Result srtf_result = SRTF::calculate(processes);
+    srtf_result.show();
 
     return 0;
 }

@@ -36,7 +36,7 @@
 
 1478328393 h:\process scheduling\process_scheduling\result.h
 
-1478358868 source:h:\process scheduling\process_scheduling\main.cpp
+1479461353 source:h:\process scheduling\process_scheduling\main.cpp
 	<iostream>
 	<vector>
 	<algorithm>
@@ -45,11 +45,12 @@
 	"FCFS.h"
 	"SJF.h"
 	"Priority_non-pre.h"
+	"SRTF.h"
 
 1478358163 source:h:\process scheduling\process_scheduling\process.cpp
 	"Process.h"
 
-1478358034 source:h:\process scheduling\process_scheduling\result.cpp
+1479461396 source:h:\process scheduling\process_scheduling\result.cpp
 	"Result.h"
 	<iostream>
 
@@ -67,6 +68,16 @@
 	<queue>
 
 1478358452 h:\process scheduling\process_scheduling\priority_non-pre.h
+	<vector>
+	"Process.h"
+	"Result.h"
+
+1479461239 source:h:\process scheduling\process_scheduling\srtf.cpp
+	"SRTF.h"
+	<queue>
+	<iostream>
+
+1479228422 h:\process scheduling\process_scheduling\srtf.h
 	<vector>
 	"Process.h"
 	"Result.h"

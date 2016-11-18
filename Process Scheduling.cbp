@@ -42,6 +42,8 @@
 		<Unit filename="Result.h" />
 		<Unit filename="SJF.cpp" />
 		<Unit filename="SJF.h" />
+		<Unit filename="SRTF.cpp" />
+		<Unit filename="SRTF.h" />
 		<Unit filename="main.cpp" />
 		<Extensions>
 			<code_completion />

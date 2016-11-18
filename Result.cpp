@@ -3,5 +3,6 @@
 void Result::show()
 {
     std::cout<<"ATAT : "<<avgTurnAroundTime<<"\n";
-    std::cout<<"AWT/ART : "<<avgWaitingTime<<"\n";
+    std::cout<<"AWT  : "<<avgWaitingTime<<"\n";
+    std::cout<<"ART  : "<<avgResponseTime<<"\n";
 }
