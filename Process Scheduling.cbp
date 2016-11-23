@@ -36,6 +36,8 @@
 		<Unit filename="FCFS.h" />
 		<Unit filename="Priority_non-pre.cpp" />
 		<Unit filename="Priority_non-pre.h" />
+		<Unit filename="Priority_pre.cpp" />
+		<Unit filename="Priority_pre.h" />
 		<Unit filename="Process.cpp" />
 		<Unit filename="Process.h" />
 		<Unit filename="Result.cpp" />
